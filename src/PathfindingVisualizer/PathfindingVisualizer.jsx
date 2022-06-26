@@ -78,13 +78,17 @@ export default class PathfindingVisualizer extends Component {
     return (
       <>
         <div className='navbar'>
+          <flex className="Nodes1">
+            <flex className='StartingNode'>Starting Node</flex>
+            <flex className='TargetNode'>Target Node</flex>
+          </flex>
           <flex>
             <button className='first' onClick={() => this.visualizeDijkstra()}>Visualize Dijkstra's Algorithm</button>
           </flex>
           <flex>
             <a href="https://sorting-visualizer-ruby.vercel.app/"><button className='first'>Go To Sorting Visualizer</button></a>
           </flex>
-          <flex className="Nodes">
+          <flex className="Nodes2">
             <flex className='UnvisitedNode'>Unvisited Node</flex>
             <flex className='VisitedNode'>Visited Nodes</flex>
             <flex className='ShortestNode'>Shortest-path Node</flex>
