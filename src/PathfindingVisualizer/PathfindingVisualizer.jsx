@@ -82,7 +82,7 @@ export default class PathfindingVisualizer extends Component {
             <button className='first' onClick={() => this.visualizeDijkstra()}>Visualize Dijkstra's Algorithm</button>
           </flex>
           <flex>
-            <a href="https://sorting-vis-rust.vercel.app/"><button className='first'>Sorting Visualizer</button></a>
+            <a href="https://sorting-visualizer-ruby.vercel.app/"><button className='first'>Sorting Visualizer</button></a>
           </flex>
         </div>
         <div className="grid">
