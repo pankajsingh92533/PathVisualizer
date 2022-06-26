@@ -3,10 +3,10 @@ import Node from './Node/Node';
 import {dijkstra, getNodesInShortestPathOrder} from '../algorithms/dijkstra';
 import './PathfindingVisualizer.css';
 
-const START_NODE_ROW = 0;
-const START_NODE_COL = 0;
-const FINISH_NODE_ROW = 19;
-const FINISH_NODE_COL = 49;
+const START_NODE_ROW = 10;
+const START_NODE_COL = 10;
+const FINISH_NODE_ROW = 10;
+const FINISH_NODE_COL = 45;
 
 export default class PathfindingVisualizer extends Component {
   constructor() {
@@ -82,7 +82,12 @@ export default class PathfindingVisualizer extends Component {
             <button className='first' onClick={() => this.visualizeDijkstra()}>Visualize Dijkstra's Algorithm</button>
           </flex>
           <flex>
-            <a href="https://sorting-visualizer-ruby.vercel.app/"><button className='first'>Sorting Visualizer</button></a>
+            <a href="https://sorting-visualizer-ruby.vercel.app/"><button className='first'>Go To Sorting Visualizer</button></a>
+          </flex>
+          <flex className="Nodes">
+            <flex className='UnvisitedNode'>Unvisited Node</flex>
+            <flex className='VisitedNode'>Visited Nodes</flex>
+            <flex className='ShortestNode'>Shortest-path Node</flex>
           </flex>
         </div>
         <div className="grid">
