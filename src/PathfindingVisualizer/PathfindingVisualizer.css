@@ -1,0 +1,67 @@
+
+.grid {
+  margin: 0 0;
+  background-color: #050801;
+}
+/* Navbar container */
+.navbar {
+  background-color: #333;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px;
+  color: white;
+  
+}
+
+/* Navbar buttons */
+.nav-button {
+  background-color: #007acc;
+  color: white;
+  margin-left: 2px;
+  border-radius: 2px;
+  padding: 10px 10px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.nav-button:hover {
+  background-color: #005e9d;
+}
+
+/* Navbar nodes */
+.nav-nodes {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.nav-node {
+  margin: 5px;
+  padding: 5px;
+}
+
+.unvisited {
+  background-color: black;
+  color: #f7f0f0;
+}
+
+.visited {
+  background-color: #2ebfd8;
+  color: #000000;
+}
+
+.shortest {
+  background-color: #f3d242;
+  color: #000000;
+}
+
+.starting {
+  background-color: #4caf50;
+  color: #ffffff;
+}
+
+.target {
+  background-color: #ff5722;
+  color: #ffffff;
+}
